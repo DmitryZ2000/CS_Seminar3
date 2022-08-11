@@ -1,11 +1,12 @@
 ﻿void PowerN(int number)
 {
     int index = 1;
-    while(index <= number)
+    while(index < number)
     {
-        Console.Write($"{index*index} ");
+        Console.Write($"{index*index}, ");
         index++;
     }
+    Console.Write($"{index*index}. ");
 }
 
 Console.Write("Введите любое целое число: ");
